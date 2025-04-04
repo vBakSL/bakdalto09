@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    background-color: #292424;
+    color: #f1ff28;
+    line-height: 1.6;
+    overflow-y: scroll; /* Habilita barra de rolagem para baixo */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portfolio-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.portfolio-galeria .item {
+    width: 300px;
+    text-align: center;
+}
+
+.portfolio-galeria .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .portfolio-galeria {
+        flex-direction: column;
+    }
+}
+
+#carrinho {
+    padding: 40px 0;
+    background-color: #222;
+    color: #f1ff28;
+}
+
+#carrinho ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#carrinho ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+button {
+    background-color: transparent; /* Fundo transparente */
+    color: #ff2828; 
+    border: 2px solid #ff2828; /* Borda da mesma cor do texto */
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+
+button:hover {
+    background-color: #610505;
+}
+
+#total {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Roupas </title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    
+
+
+    
+    <header>
+        <div class="container">
+            <h1>Portfólio de Roupas</h1>
+            <nav>
+                <ul>
+                    <li><a href="carrosel.html" target="_blank">Carrosel</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="svg.html">SVG</a></li>
+                    <li><a href="#carrinho">Carrinho</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Bem-vindo ao nosso Portfólio</h2>
+            <p>Aqui você encontra uma coleção incrível de roupas modernas e estilosas.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>NOSSO PORTFÓLIO</h2>
+            <div class="portfolio-galeria">
+                <div class="item">
+                    <img src="camisa1.jpg" alt="Roupa 1">
+                    <p>Personalização 1 </p>
+                    <p class="preco">R$ 99,00</p>
+                    <button onclick="adicionarAoCarrinho('Personalização 1', 99,99)">COMPRAR</button>
+                </div>
+                <div class="item">
+                    <img src="camisa2.jpg" alt="Roupa 2">
+                    <p>Personalização 2 </p>
+                    <p class="preco">R$ 119,00</p>
+                    <button onclick="adicionarAoCarrinho('Personalização 2', 119,99)">COMPRAR</button>
+                </div>
+                <div class="item">
+                    <img src="camisa3.jpg" alt="Roupa 3">
+                    <p>Personalização 3 </p>
+                    <p class="preco">R$ 89,00</p>
+                    <button onclick="adicionarAoCarrinho('Personalização 3', 89,99)">COMPRAR</button>
+                </div>
+                <div class="item">
+                    <img src="camisa4.jpg" alt="Roupa 4">
+                    <p>Personalização 4 </p>
+                    <p class="preco">R$ 149,00</p>
+                    <button onclick="adicionarAoCarrinho('Personalização 4', 149,99)">COMPRAR</button>
+                </div>
+                <div class="item">
+                    <img src="camisa5.jpg" alt="Roupa 5">
+                    <p>Personalização 5 </p>
+                    <p class="preco">R$ 109,00</p>
+                    <button onclick="adicionarAoCarrinho('Personalização 5', 109,99)">COMPRAR</button>
+                </div>
+                <div class="item">
+                    <img src="camisa6.jpg" alt="Roupa 6">
+                    <p>Personalização 6 </p>
+                    <p class="preco">R$ 129,00</p>
+                    <button onclick="adicionarAoCarrinho('Personalização 6', 129,99)">COMPRAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="carrinho">
+        <div class="container">
+            <h2>Carrinho de Compras</h2>
+            <ul id="lista-carrinho"></ul>
+            <p id="total">Total: R$ 0,00</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Portfólio de Roupas.  O DIFÍCIL É TUDO AQUILO QUE EU NÃO SEI</p>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
